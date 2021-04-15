@@ -36,17 +36,31 @@
     z-index: 999;
     margin: 0 auto;
     left: 0;
+    right: 0;
+    top: 5%; 
+    text-align: center;
+    width: 60%; 
+  }
+
+.textMainPg {
+
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
     right: 100%;
     top: 100%; 
     text-align: left;
     width: 60%; 
   }
 
-/*trying to make background image work */
+
+/*trying to make background image work 
 .bgimg1 {
     background-image: url("Florida Keys pic 1.jpg");
     background-size: cover;
 
   } 
+  */
 
 
