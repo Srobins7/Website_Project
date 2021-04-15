@@ -16,6 +16,11 @@
   margin-bottom: 40px;
 
 }
+
+.myDiv2 {
+  margin-top: 40px;
+
+}
 /* code for .box and .box .textattributable to: 
   https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php  
   Also mentioned in readme. */
@@ -36,6 +41,7 @@
     text-align: left;
     width: 60%; 
   }
+
 /*trying to make background image work */
 .bgimg1 {
     background-image: url("Florida Keys pic 1.jpg");

@@ -9,13 +9,13 @@
   <link rel="stylesheet" href="Assets/Styles/my_styles.css">
 </head>
 
-<body>
+<body class="pgbg1">
   <div class="docheadingbg">
     <h1> <strong>Lopez Lobster and Crab </strong></h1>
     <p style="font-size: 20px"> <em>¡Aqui Se Vende Lo Fresco!</em> </p>
   </div>
 
-
+  <!-- Twitter boostrap navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="index.html">
       <img src="Assets/Images/Lobster NavBar.jpg" width="35" height="35" alt="Picture of Lobster Logo">
@@ -40,60 +40,86 @@
     </div>
   </nav>
 
-  <main class="pgbg1">
+  <!--
+      BOOTSTRAP CONTAINER
+      https://getbootstrap.com/docs/5.0/layout/containers/
+    -->
+  <div class="container" style="margin-top:2em; margin-left:0; margin-right:0; margin-bottom:0;">
 
-    <div class="card-group">
-      <div class="card" Style="background-color: rgb(218, 236, 231);">
-        <img src="Assets/Images/Keys Lobster pic 1.jpg" height=400px class="card-img-top" alt="Picture of Keys Lobster">
-        <div class="card-body">
-          <h5 class="card-title">FL Keys Lobster</h5>
-          <p class="card-text">Season: August - March <br>
-            Price: Out of Season*
-          </p>
+    <main class="pgbg1">
+
+      <!-- Twitter boostrap cards-->
+      <div class="card-group">
+        <div class="card" Style="background-color: rgb(218, 236, 231); ">
+          <img src="Assets/Images/Keys Lobster pic 1.jpg" height=400px class="card-img-top"
+            alt="Picture of Keys Lobster">
+          <div class="card-body">
+            <h5 class="card-title">FL Keys Lobster</h5>
+            <p class="card-text">Season: August - March <br>
+              Price: Out of Season*
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">*Current price as of 4/12/2021<br>
+              *Subject to change based on prevailing market rates at date of purchase</small>
+          </div>
         </div>
-        <div class="card-footer">
-          <small class="text-muted">*Current price as of 4/12/2021</small>
+        <div class="card" Style="background-color: rgb(218, 236, 231);">
+          <img src="Assets/Images/Keys Stone Crab pic 1.jpg" height=400px class="card-img-top"
+            alt="Picture of Keys Stone Crab">
+          <div class="card-body">
+            <h5 class="card-title">FL Keys Stone Crab</h5>
+            <p class="card-text">Season: October - April<br>
+              Pricing: Medium Claws- $27.95/lbs Large Claws- $37.95 Jumbo Claws- $44.95/Lobster*
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">*Current Price as of 4/12/2021<br>
+              *Subject to change based on prevailing market rates at date of purchase</small>
+          </div>
         </div>
       </div>
-      <div class="card" Style="background-color: rgb(218, 236, 231);">
-        <img src="Assets/Images/Keys Stone Crab pic 1.jpg" height=400px class="card-img-top"
-          alt="Picture of Keys Stone Crab">
-        <div class="card-body">
-          <h5 class="card-title">FL Keys Stone Crab</h5>
-          <p class="card-text">Season: October - April<br>
-            Pricing: Medium Claws- $27.95/lbs Large Claws- $37.95 Jumbo Claws- $44.95/Lobster*
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">*Current Price as of 4/12/2021</small>
-        </div>
+      <div class="myDiv">
+        <section>
+
+          <h2 style="font-size: 20px; margin-bottom: 10px;"> Additional Information </h2>
+
+          <!-- Twitter bootstrap table-->
+          <table class="table">
+            <caption>Claws/lbs numbers based on best our best estimates.</caption>
+            <thead>
+              <tr>
+                <th scope="col">Crab Size</th>
+                <th scope="col">Claws/lbs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Medium</th>
+                <td>6 to 7</td>
+              </tr>
+              <tr>
+                <th scope="row">Large</th>
+                <td>4 to 5</td>
+              </tr>
+              <tr>
+                <th scope="row">Jumbo</th>
+                <td>2 to 3</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
       </div>
+
+    </main>
+
+
+    <div class="pgbg1">
+      <footer>
+        <p style="font-size: 12px;">©Copyright 2021 by Schuyler Robinson. All rights reversed.</p>
+      </footer>
     </div>
-    <div class="myDiv">
-      <section>
-
-        <h2 style="font-size: 20px"> Additional Pricing Information </h2>
-        <ul>
-          <li>For corporate/wholesale customers please contact us directly for bulk price quotes.</li>
-          <li>Typical number of claws per pound:</li>
-          <ul>
-            <li>Medium- 6 to 7 </li>
-            <li>Large- 4 to 5 </li>
-            <li>Jumbo- 2 to 3</li>
-          </ul>
-          <li>All quoted prices are subject to change based on prevailing market rates at date of purchase.</li>
-        </ul>
-      </section>
-    
-    </div>
-
-  </main>
-
-
-  <div class="pgbg1">
-    <footer>
-      <p style="font-size: 12px;">©Copyright 2021 by Schuyler Robinson. All rights reversed.</p>
-    </footer>
   </div>
 </body>
 
