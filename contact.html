@@ -12,97 +12,103 @@
 
 <body class="pgbg1">
   <div class="docheadingbg">
-    <h1> <strong>Lopez Lobster and Crab </strong></h1>
+    <!--Code for putting phone number and page title on same line: https://stackoverflow.com/questions/4736067/how-to-write-both-h1-and-h2-in-the-same-line-->
+    <h1 style="text-align:left; float:left;"> <strong>Lopez Lobster and Crab </strong></h1>
+    <p style="font-size:12px; text-align: right; float:right;"><b>(305) xxx-ooo</b></p>
+    <hr style="clear:both;" />
+
     <p style="font-size: 20px"> <em>¡Aqui Se Vende Lo Fresco!</em> </p>
   </div>
 
-  
+
   <!-- Twitter boostrap navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <img src="Assets/Images/Lobster NavBar.jpg" width="35" height="35" alt="Picture of Lobster Logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current= "page" href="about.html">Our Story </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="products.html">Lobster and Crab</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Us To Buy Today</a>
-        </li>
+      <a class="navbar-brand" href="index.html">
+        <img src="Assets/Images/Lobster NavBar.jpg" width="35" height="35" alt="Picture of Lobster Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">Our Story </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Lobster and Crab</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us To Buy Today</a>
+          </li>
 
-      </ul>
-    </div>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <main>
 
-  <h2>Contact Information</h2>
-  <p> Call or email us today to set up your purchase and arrange a pick up time! <br>
-    Phone: (305) xxx-oooo<br>
-    Email: LopezLobsterAndCrab@email.com<br>
+    <h2>Contact Information</h2>
+    <p> Call or email us today to set up your purchase and arrange a pick up time! <br>
+      Phone: (305) xxx-oooo<br>
+      Email: LopezLobsterAndCrab@email.com<br>
 
-    Company Address: Keys, Florida
+      Company Address: Keys, Florida
 
-  </p>
+    </p>
 
-  <h3>FAQ</h3>
-  <ol>
-    <li>When are lobsters and stone crab in season?</li>
-    <ul>
-      <li> See Lobsters and Crab page for all details on seasons and pricing.</li>
-    </ul>
-    <li>Do you deliver? If so where to?</li>
-    <ul>
-      <li> We are able to make deliveries within the south Miami and north FL keys area however
-        deliveries are subject to limited availbility and include a delivery fee depending on distance.
-        We recommend scheduling a pick up time from our company address instead.
-      </li>
-    </ul>
-    <li>Are there wholesale and/or corporate pricing options?</li>
-    <ul>
-      <li>Please contact us for additional bulk pricing options.</li>
-    </ul>
-  </ol>
+    <h3>FAQ</h3>
+    <ol>
+      <li>When are lobsters and stone crab in season?</li>
+      <ul>
+        <li> See Lobsters and Crab page for all details on seasons and pricing.</li>
+      </ul>
+      <li>Do you deliver? If so where to?</li>
+      <ul>
+        <li> We are able to make deliveries within the south Miami and north FL keys area however
+          deliveries are subject to limited availbility and include a delivery fee depending on distance.
+          We recommend scheduling a pick up time from our company address instead.
+        </li>
+      </ul>
+      <li>Are there wholesale and/or corporate pricing options?</li>
+      <ul>
+        <li>Please contact us for additional bulk pricing options.</li>
+      </ul>
+    </ol>
 
-  <form class="mx-auto" style="max-width: 350px; margin-top:2em;">
-    <h3>Receive Updates on New Catches and Season Dates</h3>
-    
-    <div class="mb-3">
-      <label for="my-name" class="form-label">Name</label>
-      <input type="name" class="form-control" id="my-name">
-    </div>
-    
-    <div class="mb-3">
-      <label for="my-email" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="my-email" aria-describedby="emailHelp" placeholder="hello@example.com">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
+    <!-- Twitter Bootstrap Forms-->
+    <form class="mx-auto" style="max-width: 350px; margin-top:2em;">
+      <h3>Receive Updates on New Catches and Season Dates</h3>
 
-    <div class="mb-3">
-      <label for="my-number" class="form-label">Phone Number</label>
-      <input type="number" class="form-control" id="my-number" placeholder="(xxx) xxx-xxxx">
-    </div>
+      <div class="mb-3">
+        <label for="my-name" class="form-label">Name</label>
+        <input type="name" class="form-control" id="my-name">
+      </div>
 
-    <div class="mb-3">
-       <label class="form-check-label" for="my-select">Prefered Contact Method:</label>
-       <select class="form-select" id="my-select" aria-label="Default select example">
-        <option value="1" >Phone</option>
-        <option value="2" selected>Email</option>
-      </select>
-    </div>
+      <div class="mb-3">
+        <label for="my-email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="my-email" aria-describedby="emailHelp"
+          placeholder="hello@example.com">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
 
-    <button type="submit" class="btn btn-primary" id="my-button">Submit</button>
-  </form>
+      <div class="mb-3">
+        <label for="my-number" class="form-label">Phone Number</label>
+        <input type="number" class="form-control" id="my-number" placeholder="(xxx) xxx-xxxx">
+      </div>
+
+      <div class="mb-3">
+        <label class="form-check-label" for="my-select">Prefered Contact Method:</label>
+        <select class="form-select" id="my-select" aria-label="Default select example">
+          <option value="1">Phone</option>
+          <option value="2" selected>Email</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary" id="my-button">Submit</button>
+    </form>
 
 
 
