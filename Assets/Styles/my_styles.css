@@ -2,6 +2,7 @@
     background-color:rgb(134, 224, 197);
     border: solid rgb(134, 224, 197);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:auto
   }
 
 .pgbg1 {
@@ -10,9 +11,27 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
-.pgbgimg1 {
-     background-image: url("Florida Keys pic 1.jpg");
-
+.box {
+    position: relative;
+    display:inline-block;
   }
+
+.box .text {
+
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 100%;
+    top: 100%; 
+    text-align: left;
+    width: 60%; 
+  }
+
+.bgimg1 {
+    background-image: url("Florida Keys pic 1.jpg");
+    background-size: cover;
+
+  } 
 
 
