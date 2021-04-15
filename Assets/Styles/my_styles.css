@@ -21,9 +21,17 @@
   margin-top: 40px;
 
 }
+
+.headingHR {
+  clear:both; 
+  color:rgb(134, 224, 197); 
+  background-color: rgb(134, 224, 197); 
+  margin:0;
+
+}
 /* code for .box and .box .textattributable to: 
   https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php  
-  Also mentioned in readme. */
+  Also cited in readme. */
 
 .box {
     position: relative;
@@ -42,7 +50,7 @@
     width: 60%; 
   }
 
-.textMainPg {
+/*trying to put copy right on picture on index page at bottom left .textMainPg {
 
     position: absolute;
     z-index: 999;
@@ -52,7 +60,7 @@
     top: 100%; 
     text-align: left;
     width: 60%; 
-  }
+  } */
 
 
 /*trying to make background image work 
