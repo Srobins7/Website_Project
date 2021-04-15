@@ -23,4 +23,4 @@ Image Sources (all free/none copyright)
 
 Code Attributions
 
-1.
+1. Code in my-styles for .box and .box .text used to overlay copyright footer on image from attributable to this website: https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php

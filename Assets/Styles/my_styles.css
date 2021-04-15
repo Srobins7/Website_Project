@@ -11,6 +11,15 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
 
+.myDiv {
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+/* code for .box and .box .textattributable to: 
+  https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php  
+  Also mentioned in readme. */
+
 .box {
     position: relative;
     display:inline-block;
@@ -27,7 +36,7 @@
     text-align: left;
     width: 60%; 
   }
-
+/*trying to make background image work */
 .bgimg1 {
     background-image: url("Florida Keys pic 1.jpg");
     background-size: cover;
