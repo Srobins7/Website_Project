@@ -7,6 +7,10 @@ Website Description:  This is a fictious website made for a lobster and crab fis
 
 References:
 
+Pricing Information:
+
+1. https://beststonecrabs.com/product/stone-crab-claws-by-the-pound/ 
+
 Image Sources (all free/none copyright)
 
 1. <a href="https://www.vecteezy.com/free-vector/lobster-logo">Lobster Logo Vectors by Vecteezy</a>  for lobster picture on navbar
