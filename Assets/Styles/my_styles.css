@@ -29,9 +29,9 @@
   margin:0;
 
 }
-/* code for .box and .box .textattributable to: 
+/* code for .box and .box .text attributable to: 
   https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php  
-  Also cited in readme. */
+   */
 
 .box {
     position: relative;
@@ -48,6 +48,16 @@
     top: 5%; 
     text-align: center;
     width: 60%; 
+  }
+/* code for aside attributable to: 
+  https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml5_aside2 */
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    
   }
 
 /*trying to put copy right on picture on index page at bottom left .textMainPg {
