@@ -23,7 +23,7 @@ Image Sources (all free/none copyright)
 
 5. Cuba Pic 1 on about page (our story): https://unsplash.com/photos/uLh71gTmZ4g
 
-6. Miami Pic 1 on about page (our story): https://www.pexels.com/photo/aerial-view-of-city-buildings-near-body-of-water-4366062/ 
+6. Miami Pic 1 on about page (our story): https://www.pexels.com/photo/aerial-view-of-city-buildings-near-body-of-water-4366062/
 
 
 
@@ -36,3 +36,7 @@ Code Attributions
 3. Change list bullets into Qs and As on contact page: https://stackoverflow.com/questions/18132341/custom-html-list-bullets-text-wrapping-aligning
 
 4. Put forms on same line as contanct info/FAQ on contact page: https://stackoverflow.com/questions/29774427/css-positioning-aside-html-element-box
+
+5. Code for putting phone number and page title on same line in header: https://stackoverflow.com/questions/4736067/how-to-write-both-h1-and-h2-in-the-same-line
+
+6. Professor's in-class excercises/office hours

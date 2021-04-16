@@ -29,6 +29,20 @@
   margin:0;
 
 }
+
+.headerFit{
+  text-align:left; 
+  float:left;
+
+}
+
+.phoneFit{
+  font-size:12px; 
+  text-align: right; 
+  float:right;
+
+
+}
 /* code for .box and .box .text attributable to: 
   https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php  
    */
@@ -72,7 +86,26 @@
     }
   }
   
+  @media only screen and (max-width: 600px) {
+    .headingHR {
+      display:none;
+    }
+  }
 
+  @media only screen and (max-width: 600px) {
+    .headerFit {
+      text-align:left; 
+      float:none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .phoneFit {
+      font-size:12px; 
+      text-align: left; 
+      float:none;
+    }
+  }
 
 
 
