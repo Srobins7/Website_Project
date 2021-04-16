@@ -61,18 +61,6 @@ aside {
     
   }
 
-.textMainPg {
-
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    left: 0;
-    right: 100%;
-    top: 2050px; 
-    text-align: left;
-    width: 60%; 
-  } 
-
 
 
 
