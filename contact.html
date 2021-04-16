@@ -9,51 +9,59 @@
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
   <link rel="stylesheet" href="Assets/Styles/my_styles.css">
   <style>
+    .list1 {
+      list-style-type: none;
 
-.list1 {
-    list-style-type: none;
+    }
 
-}
+    .list1 li {
+      list-style-type: none;
+      position: relative;
+      padding-left: 5px;
+    }
 
-.list1 li{
-    list-style-type: none;
-    position: relative;
-    padding-left: 5px;
-}
-.list1 li:before{
-    content: 'Q:';
-    display: block;
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    left: -18px;
-}
+    .list1 li:before {
+      content: 'Q:';
+      display: block;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      left: -18px;
+    }
 
-.list2 {
-    list-style-type: none;
+    .list2 {
+      list-style-type: none;
 
-}
+    }
 
-.list2 li{
-    list-style-type: none;
-    position: relative;
-    padding-left: 5px;
-}
-.list2 li:before{
-    content: 'A:';
-    display: block;
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    left: -18px;
-}
+    .list2 li {
+      list-style-type: none;
+      position: relative;
+      padding-left: 5px;
+    }
 
-article{
-    display: inline-block; 
-    width: 55%;
+    .list2 li:before {
+      content: 'A:';
+      display: block;
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      left: -18px;
+    }
+
+    article {
+      display: inline-block;
+      width: 55%;
+
+    }
+
+    @media only screen and (max-width: 800px) {
+    article {display:block;}
+
+    }
+
     
-}
-</style>
+  </style>
 
 </head>
 
@@ -75,7 +83,8 @@ article{
         <img src="Assets/Images/Lobster NavBar.jpg" width="35" height="35" alt="Picture of Lobster Logo">
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -98,86 +107,88 @@ article{
     </div>
   </nav>
   <div class="container-fluid" style="margin-top:2em;">
-  <main>
+    <main>
 
-    <article>
+      <article>
 
-    <h2>Contact Information</h2>
-    <p> Call or email us today to set up your purchase and arrange a pick up time! <br>
-      Phone: (305) xxx-oooo<br>
-      Email: LopezLobsterAndCrab@email.com<br>
+        <h2>Contact Information</h2>
+        <p> Call or email us today to set up your purchase and arrange a pick up time! <br>
+          Phone: (305) xxx-oooo<br>
+          Email: LopezLobsterAndCrab@email.com<br>
 
-      Company Address: FL Keys, Florida
+          Company Address: FL Keys, Florida
 
-    </p>
-
-
-    <h3>Frequently Asked Questions</h3>
-    <ol class="list1" style="margin-bottom:10px; width: 350px;">
-      <li>When are lobsters and stone crab in season?</li>
-      <ul class="list2" style="width:350px; margin-top:10px; margin-bottom: 10px;">
-        <li> See Lobsters and Crab page for all details on seasons and pricing.</li>
-      </ul>
-      <li>Do you deliver? If so where to?</li>
-      <ul class="list2" style="width:350px; margin-top:10px; margin-bottom: 10px; ">
-        <li> We are able to make deliveries within the south Miami and north FL keys area however 
-          deliveries are subject to limited availbility and include a delivery fee depending on distance.
-          We recommend scheduling a pick up time from our company address instead.
-        </li>
-      </ul>
-      <li>Are there wholesale and/or corporate pricing options?</li>
-      <ul class="list2" style="width:350px; margin-top:10px; margin-bottom: 10px;">
-        <li>Please contact us for additional bulk pricing options.</li>
-      </ul>
-    </ol>
-
-  </article>
-
-    <!-- Twitter Bootstrap Forms-->
-    <article class="sidebox">
-    <form class="mx-auto" style="max-width: 350px; margin-top:2em;">
-      <h3>Receive Updates on New Catches and Season Dates</h3>
-
-      <div class="mb-3">
-        <label for="my-name" class="form-label">Name</label>
-        <input type="name" class="form-control" id="my-name">
-      </div>
-
-      <div class="mb-3">
-        <label for="my-email" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="my-email" aria-describedby="emailHelp"
-          placeholder="hello@example.com">
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-      </div>
-
-      <div class="mb-3">
-        <label for="my-number" class="form-label">Phone Number</label>
-        <input type="number" class="form-control" id="my-number" placeholder="(xxx) xxx-xxxx">
-      </div>
-
-      <div class="mb-3">
-        <label class="form-check-label" for="my-select">Prefered Contact Method:</label>
-        <select class="form-select" id="my-select" aria-label="Default select example">
-          <option value="1">Phone</option>
-          <option value="2" selected>Email</option>
-        </select>
-      </div>
-
-      <button type="submit" class="btn btn-primary" id="my-button">Submit</button>
-    </form>
-  </article>
+        </p>
 
 
-  </main>
+        <h3>Frequently Asked Questions</h3>
+        <ol class="list1" style="margin-bottom:10px; width: 350px;">
+          <li>When are lobsters and stone crab in season?</li>
+          <ul class="list2" style="width:350px; margin-top:10px; margin-bottom: 10px;">
+            <li> See Lobsters and Crab page for all details on seasons and pricing.</li>
+          </ul>
+          <li>Do you deliver? If so where to?</li>
+          <ul class="list2" style="width:350px; margin-top:10px; margin-bottom: 10px; ">
+            <li> We are able to make deliveries within the south Miami and north FL keys area however
+              deliveries are subject to limited availbility and include a delivery fee depending on distance.
+              We recommend scheduling a pick up time from our company address instead.
+            </li>
+          </ul>
+          <li>Are there wholesale and/or corporate pricing options?</li>
+          <ul class="list2" style="width:350px; margin-top:10px; margin-bottom: 10px;">
+            <li>Please contact us for additional bulk pricing options.</li>
+          </ul>
+        </ol>
 
-  <div class="myDiv2">
-    <footer>
-      <p style="font-size: 12px;">©Copyright 2021 by Schuyler Robinson. All rights reserved.</p>
-    </footer>
+      </article>
+
+      <!-- Twitter Bootstrap Forms-->
+      <article class="sidebox">
+        <form class="mx-auto" style="max-width: 350px; margin-top:2em;">
+          <h3>Receive Updates on New Catches and Season Dates</h3>
+
+          <div class="mb-3">
+            <label for="my-name" class="form-label">Name</label>
+            <input type="name" class="form-control" id="my-name">
+          </div>
+
+          <div class="mb-3">
+            <label for="my-email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="my-email" aria-describedby="emailHelp"
+              placeholder="hello@example.com">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="my-number" class="form-label">Phone Number</label>
+            <input type="number" class="form-control" id="my-number" placeholder="(xxx) xxx-xxxx">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-check-label" for="my-select">Prefered Contact Method:</label>
+            <select class="form-select" id="my-select" aria-label="Default select example">
+              <option value="1">Phone</option>
+              <option value="2" selected>Email</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="my-button">Submit</button>
+        </form>
+      </article>
+
+
+    </main>
+
+    <div class="myDiv2">
+      <footer>
+        <p style="font-size: 12px;">©Copyright 2021 by Schuyler Robinson. All rights reserved.</p>
+      </footer>
+    </div>
   </div>
-</div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

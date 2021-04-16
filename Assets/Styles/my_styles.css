@@ -61,12 +61,17 @@
     padding: 15px;
     margin: 15px;
 
-    /*float: right;
-    padding-left: 15px;
-    margin-left: 15px;
-    */
+
     
   }
+
+  @media only screen and (max-width: 1050px) {
+    .sidebox {
+      display: block;
+      width: 40%;
+    }
+  }
+  
 
 
 
