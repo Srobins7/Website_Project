@@ -52,14 +52,25 @@
 /* code for aside attributable to: 
   https://www.w3schools.com/TAGS/tryit.asp?filename=tryhtml5_aside2 */
 
-aside {
+.sidebox {
     
+    display: inline-block;
     width: 30%;
+    vertical-align:top;
+    background-color: rgb(134, 224, 197);
+    padding: 15px;
+    margin: 15px;
+
+    /*float: right;
     padding-left: 15px;
     margin-left: 15px;
-    float: right;
+    */
     
   }
+
+
+
+
 
 
 

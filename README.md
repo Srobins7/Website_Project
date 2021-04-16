@@ -29,4 +29,10 @@ Image Sources (all free/none copyright)
 
 Code Attributions
 
-1. Code in my-styles for .box and .box .text used to overlay copyright footer on image from attributable to this website: https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php
+1. Code in my-styles for .box and .box .text used to overlay text on image for index page from attributable to this website: https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php
+
+2. Twitter Bootstrap Attributions are directly in code
+
+3. Change list bullets into Qs and As on contact page: https://stackoverflow.com/questions/18132341/custom-html-list-bullets-text-wrapping-aligning
+
+4. Put forms on same line as contanct info/FAQ on contact page: https://stackoverflow.com/questions/29774427/css-positioning-aside-html-element-box
