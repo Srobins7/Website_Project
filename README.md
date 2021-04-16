@@ -21,6 +21,12 @@ Image Sources (all free/none copyright)
 
 4. Keys stone crab pic 1 on products page (lobster and crab): https://unsplash.com/photos/w1Qs3z84cwk
 
+5. Cuba Pic 1 on about page (our story): https://unsplash.com/photos/uLh71gTmZ4g
+
+6. Miami Pic 1 on about page (our story): https://www.pexels.com/photo/aerial-view-of-city-buildings-near-body-of-water-4366062/ 
+
+
+
 Code Attributions
 
 1. Code in my-styles for .box and .box .text used to overlay copyright footer on image from attributable to this website: https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php
