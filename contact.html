@@ -51,15 +51,15 @@
 
     article {
       display: inline-block;
-      width: 55%;
+      /*width: 37%;*/
 
     }
 
-    @media only screen and (max-width: 800px) {
+    /*@media only screen and (max-width: 800px) {
     article {
     display:block;}
 
-    }
+    }*/
 
     
   </style>
@@ -111,9 +111,9 @@
     <main>
 
       <article>
-
         <h2>Contact Information</h2>
-        <p> Call or email us today to set up your purchase and arrange a pick up time! <br>
+        <div class="textBox">
+        <p> Call or email us today to set up your purchase! <br>
           Phone: (305) xxx-oooo<br>
           Email: LopezLobsterAndCrab@email.com<br>
 
@@ -121,9 +121,13 @@
 
         </p>
 
+      </div>
+
+
 
         <h3>Frequently Asked Questions</h3>
-        <ol class="list1" style="margin-bottom:10px; width: 350px;">
+        <div class="textBox" style="padding-left:0;">
+        <ol class="list1" style="margin-bottom:10px; width: 400px;">
           <li>When are lobsters and stone crab in season?</li>
           <ul class="list2" style="width:350px; margin-top:10px; margin-bottom: 10px;">
             <li> See Lobsters and Crab page for all details on seasons and pricing.</li>
@@ -140,6 +144,7 @@
             <li>Please contact us for additional bulk pricing options.</li>
           </ul>
         </ol>
+        </div>
 
       </article>
 

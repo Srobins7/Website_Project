@@ -43,6 +43,12 @@
 
 
 }
+
+.textBox {
+  border: 2px solid black; 
+  padding:10px;
+
+}
 /* code for .box and .box .text attributable to: 
   https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php  
    */
@@ -69,11 +75,13 @@
 .sidebox {
     
     display: inline-block;
-    width: 30%;
+    /*width: 30%;*/
     vertical-align:top;
     background-color: rgb(134, 224, 197);
     padding: 15px;
     margin: 15px;
+    margin-left: 200px;
+    margin-top: 50px;
 
 
     
@@ -82,7 +90,10 @@
   @media only screen and (max-width: 1050px) {
     .sidebox {
       display: block;
-      width: 40%;
+      margin:0px;
+      margin-top:15px;
+      width: 400px;
+
     }
   }
   
