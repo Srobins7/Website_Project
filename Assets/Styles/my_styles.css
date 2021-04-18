@@ -97,6 +97,7 @@
   }
   @media only screen and (max-width: 500px) {
     .sidebox {
+      margin:15px;
       width: auto;
 
     }
