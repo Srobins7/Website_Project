@@ -1,8 +1,8 @@
 # Website_Project
-This is the repository for my website project for internet business technologies (OPIM-668-40).
+This is the repository for my website project for internet business technologies (OPIM-668-40). <br>
 Author: Schuyler Robinson
 
-Website Title: Lopez Lobster and Crab
+Website Title: Lopez Lobster and Crab <br>
 Website Description:  This is a fictious website made for a lobster and crab fishing business based in the Florida Keys.
 
 References:
@@ -19,11 +19,13 @@ Image Sources (all free/none copyright)
 
 3. Keys Lobster pic 1 on products page (lobster and crab): https://unsplash.com/photos/OJPBfUqgsRU
 
-4. Keys stone crab pic 1 on products page (lobster and crab): https://unsplash.com/photos/w1Qs3z84cwk
+4. Keys stone crab pic 2 on products page (lobster and crab): https://unsplash.com/photos/w1Qs3z84cwk
 
 5. Cuba Pic 1 on about page (our story): https://unsplash.com/photos/uLh71gTmZ4g
 
-6. Miami Pic 1 on about page (our story): https://www.pexels.com/photo/aerial-view-of-city-buildings-near-body-of-water-4366062/
+6. Miami Pic 2 on about page (our story): https://www.pexels.com/photo/aerial-view-of-city-buildings-near-body-of-water-4366062/
+
+7. Boat Traps pic 3: author owned
 
 
 
