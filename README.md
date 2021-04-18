@@ -19,13 +19,15 @@ Image Sources (all free/none copyright)
 
 3. Keys Lobster pic 1 on products page (lobster and crab): https://unsplash.com/photos/OJPBfUqgsRU
 
-4. Keys stone crab pic 2 on products page (lobster and crab): https://unsplash.com/photos/w1Qs3z84cwk
+4. Keys stone crab pic 2_Alternate 2 on products page (lobster and crab): https://unsplash.com/photos/w1Qs3z84cwk
 
 5. Cuba Pic 1 on about page (our story): https://unsplash.com/photos/uLh71gTmZ4g
 
 6. Miami Pic 2 on about page (our story): https://www.pexels.com/photo/aerial-view-of-city-buildings-near-body-of-water-4366062/
 
 7. Boat Traps pic 3: author owned
+
+8. Keys stone crab pic 3 and pic 4_Alternate 1: author owned
 
 
 
